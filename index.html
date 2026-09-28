@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <title>Let's KickPost!</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
-<img src="assets/logo.jpeg" alt="KickPost logo" class="logo">
-<div class="card">
-    <h1>Let's KickPost!</h1>
-    <h4>Choose your region and add your work email to start.</h4>
-    <select>
-        <option value="">Choose Your Region</option>
-        <option value="na">North America</option>
-        <option value="eu">Europe</option>
-        <option value="apac">Asia Pacific</option>
-    </select>
-    <input type="email" placeholder="WORK EMAIL">
-    <p class="terms">
-        By joining you confirm you accept our
-        <a href="#">terms of service</a> and
-        <a href="#">privacy policy</a>.
-    </p>
-    <button>NEXT</button>
-</div>
 
+<body>
+    <img src="assets/logo.jpeg" alt="KickPost logo" class="logo">
+    <div class="card">
+        <h1>Let's KickPost!</h1>
+        <h4>Choose your region and add your work email to start.</h4>
+
+        <form action="welcomeback.html">
+            <select>
+                <option value="">Choose Your Region</option>
+                <option value="na">North America</option>
+                <option value="eu">Europe</option>
+                <option value="apac">Asia Pacific</option>
+            </select>
+            <input type="email" placeholder="WORK EMAIL">
+            <p class="terms">
+                By joining you confirm you accept our
+                <a href="#">terms of service</a> and
+                <a href="#">privacy policy</a>.
+            </p>
+            <button type="submit">NEXT</button>
+        </form>
+    </div>
 </body>
 
 </html>
